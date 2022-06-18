@@ -86,11 +86,14 @@ console.log('My favorite foods remain', favFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-favFoods.splice(1, 1, 'Guacamole');
+favFoods.splice(1, 1, 'guacamole');
 console.log('My updated favorite foods:', favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+favFoods.sort();
+favFoods.reverse();
+console.log(favFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
