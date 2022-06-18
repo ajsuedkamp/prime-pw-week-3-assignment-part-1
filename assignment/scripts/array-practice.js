@@ -82,9 +82,12 @@ console.log('The animals are now', animalArray);
 removedFood = favFoods.shift();
 console.log('Removed the first food', removedFood);
 console.log('My favorite foods remain', favFoods);
+
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favFoods.splice(1, 1, 'Guacamole');
+console.log('My updated favorite foods:', favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
